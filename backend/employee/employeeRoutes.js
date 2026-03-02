@@ -7,4 +7,4 @@ router.get("/employees",verifyToken,getAllEmployees);
 router.post("/add",verifyToken,addEmployee);
 router.delete("/employee/:id",verifyToken,deleteEmployee);
 
-module.exports = router 
+module.exports = router;
